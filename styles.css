@@ -1,0 +1,306 @@
+html {
+    scroll-behavior: smooth;
+  }
+ 
+body{
+     /* font-family: "Berthold Akzidenz Grotesk BE"!important; */
+     font-family: 'Inter', sans-serif;
+     letter-spacing: -4px; 
+     background-color: #FEFEFF;
+     color: #000014;
+     padding: 10px;
+    
+}
+
+
+#portImg{
+    width: 30%;
+    /* border: 10px solid #000014; */
+    display: inline-block;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+   
+    
+}
+#portImg:hover, #mobImg:hover{
+    -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+  
+}
+p{
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: -0px;
+    color: #333333;
+    vertical-align:top;
+    margin-right: 10px;
+  
+}
+hr{
+   text-align: left!important;
+   
+    width: 50%;
+}
+#nameTitle{
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+     /* Add a transition effect (when scrolling - and font size is decreased) */
+    background: #FEFEFF;
+    
+  }
+  #nameHeader{
+    transition: 0.2s;
+  }
+  #descHeader{
+    transition: 0.2s;
+  }
+h1{
+    font-size: 100px;
+    letter-spacing: -6px; 
+   
+}
+#cards-container{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    width: 30%;
+  
+}
+@media only screen and (max-width: 768px){
+    #cards-container{
+        width:100%;
+    }
+    h1{
+        font-size: 60px!important;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h4{ 
+        font-size: 30px!important;
+    }
+    #nameTitle{
+        position: absolute;
+        bottom: 100px;
+        left: 10px;
+         /* Add a transition effect (when scrolling - and font size is decreased) */
+        background: #FEFEFF;
+        
+      }
+      #nameHeader{
+        transition: 0.2s;
+      }
+      #descHeader{
+        transition: 0.2s;
+      }
+   
+}
+#instaLogo{
+    width: 10%;
+    display: inline-block;
+}
+#gitLogo{
+    width:10%;
+    display: inline-block;
+}
+#hoverImage{
+    display: block;
+    width:100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #000014;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0;
+  }
+ 
+  .overlay .text{
+    opacity: 1;
+  }
+  #comCon{
+      background: #E0E5EC;
+  }
+  #eOverlay{
+      background: #D55672;
+  }
+  #eTwoOverlay{
+      background: #F3D9DC;
+  }
+  #eThreeOverlay{
+      background: #983222;
+  }
+  #yoganOverlay{
+      background: #674F41;
+  }
+  #shiftOverlay{
+      background: #86A092;
+  }
+  #kaleidoOverlay{
+      background: #88BF67;
+  }
+  #sweetOverlay{
+      background: #686669;
+  }
+  #nutsOverlay{
+      background: #E97239;
+  }
+  #bemusedOverlay{
+      background: #C4DCF4;
+  }
+  #sosOverlay{
+      background: #EF233C;
+  }
+  #messageOverlay{
+      background: #F0C419;
+  }
+  .text {
+    color: #FEFEFF;
+    font-size: 32px!important;
+    max-width: 80ch!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text h4{
+      font-size: 24px!important;
+  }
+  .text p{
+    text-align: left!important;
+    color: #FEFEFF;
+    max-width: 90ch;
+}
+.card-content{
+    background: #FEFEFF;
+    /* border: 0.2px solid #000014; */
+    margin: 10px;
+}
+.card-content p{
+    max-width: 60ch;
+}
+#mobImage{
+    width: 40%;
+
+}
+h4{
+    font-size: 24px;
+}
+.container{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    
+}
+#paraCont{
+    background: red;
+}
+h3{
+    text-align: left;
+    font-size: 100px;
+}
+
+
+a {
+    font-size: 100px;
+    letter-spacing: -2px; 
+    color: black;
+    border-color: none;
+  }
+  
+
+a:hover {
+    color:#3F826D;
+    -webkit-transition: text-color 1000ms linear;
+    -ms-transition: text-color 1000ms linear;
+    transition: text-color 1000ms linear;
+}
+.btn{
+background: #3F826D;
+border-radius: 2px;
+text-transform: none;
+}
+.btn:hover{
+    background: #75BDA6;
+}
+img{
+    width: 100vw;
+}
+
+.arrows {
+    text-align: right;
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 40px;
+}
+#arrowImage{
+    width: 5%;
+    position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 40px;
+}
+
+.arrows path {
+	stroke: #000014;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
