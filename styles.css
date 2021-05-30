@@ -49,7 +49,9 @@ hr{
 #nameTitle{
     position: fixed;
     bottom: 100px;
-    left: 10px;
+    left: -20px;
+    padding: 20px;
+    margin: 20px;
      /* Add a transition effect (when scrolling - and font size is decreased) */
     background: #FEFEFF;
     
